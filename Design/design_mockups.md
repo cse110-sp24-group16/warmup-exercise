@@ -21,3 +21,8 @@ Additional Notes:
 - Font and styling should be in our team's (Quantumm Leap) signature font and styling.
 - Colors will also be changed to a darker and purplish theme to match the team aesthetic.
 
+Vertical Layout Revised from Annotated:  
+<img src="Vertical-Revised.png" width="500"> 
+- Below is the visualization of the annotated version. Colors and Fonts would be better tested later. 
+
+
