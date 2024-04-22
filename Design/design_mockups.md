@@ -24,5 +24,5 @@ Additional Notes:
 Vertical Layout Revised from Annotated:  
 <img src="Vertical-Revised.png" width="500"> 
 - Below is the visualization of the annotated version. Colors and Fonts would be better tested later. 
-
+- **IMPORTANT:** The spacing of elements such as the Task 1 header, tags and potentially other elements are quite cramped so in CSS experiment with different margins to see which is the most breathable format.
 
