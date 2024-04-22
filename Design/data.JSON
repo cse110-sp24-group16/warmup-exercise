@@ -1,0 +1,26 @@
+[
+    {
+      "category": "To Do",
+      "task": "Complete project proposal",
+      "task_details": "Write up a detailed proposal for the upcoming project.",
+      "date": "2024-04-25",
+      "time": "09:00",
+      "task_completion": false
+    },
+    {
+      "category": "To Do",
+      "task": "Meeting with client",
+      "task_details": "Discuss project requirements and timelines with the client.",
+      "date": "2024-04-26",
+      "time": "15:30",
+      "task_completion": false
+    },
+    {
+      "category": "Doing",
+      "task": "Prepare presentation",
+      "task_details": "Create a presentation outlining project milestones and deliverables.",
+      "date": "2024-04-27",
+      "time": "11:00",
+      "task_completion": true
+    }
+]
