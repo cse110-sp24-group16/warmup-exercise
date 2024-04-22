@@ -12,3 +12,12 @@ Vertical Layout:
 
 Same specifications as the first layout only in a vertical format rather than horizontal.
 
+Vertical Layout - Annotated/Changes:
+
+<img src="Vertical-annotated.jpg" width="500">  
+
+Additional Notes:
+- Generally space to the right should be used to allocate important information such as Date, Progress and others(links, etc).
+- Font and styling should be in our team's (Quantumm Leap) signature font and styling.
+- Colors will also be changed to a darker and purplish theme to match the team aesthetic.
+
