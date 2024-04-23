@@ -1,0 +1,50 @@
+[
+    {
+      "category": "Doing",
+      "task": "Prepare presentation",
+      "task_details": "Create a presentation outlining project milestones and deliverables.",
+      "date": "2024-04-27",
+      "time": "11:00",
+      "task_completion": true
+    },
+    {
+      "category": "Doing",
+      "task": "Review project budget",
+      "task_details": "Analyze project costs and ensure budget aligns with client expectations.",
+      "date": "2024-04-28",
+      "time": "14:00",
+      "task_completion": false
+    },
+    {
+      "category": "To Do",
+      "task": "Code refactoring",
+      "task_details": "Refactor existing codebase to improve performance and maintainability.",
+      "date": "2024-04-29",
+      "time": "10:00",
+      "task_completion": false
+    },
+    {
+      "category": "To Do",
+      "task": "Submit progress report",
+      "task_details": "Prepare and submit a progress report to the project stakeholders.",
+      "date": "2024-04-30",
+      "time": "16:00",
+      "task_completion": false
+    },
+    {
+      "category": "Completed",
+      "task": "Complete project proposal",
+      "task_details": "Write up a detailed proposal for the upcoming project.",
+      "date": "2024-04-25",
+      "time": "09:00",
+      "task_completion": true
+    },
+    {
+      "category": "Completed",
+      "task": "Meeting with client",
+      "task_details": "Discuss project requirements and timelines with the client.",
+      "date": "2024-04-26",
+      "time": "15:30",
+      "task_completion": true
+    }
+  ]
