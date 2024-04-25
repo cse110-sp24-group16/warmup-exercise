@@ -24,11 +24,12 @@ hr {
 }
 
 .section {
-    background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 10px;
     padding: 20px;
+    max-width: 610px;
 }
 
 form {
@@ -37,10 +38,16 @@ form {
 }
 
 fieldset {
+    background-color: white;
     border: 2px solid #eaeaea;
     border-radius: 8px;
     padding: 20px;
 }
+
+form > fieldset {
+    background-color: #f3f3f3;
+}
+
 
 legend {
     font-weight: bold;
@@ -87,14 +94,14 @@ button:hover {
 }
 
 /* Colors for sections */
-#section#1 {
-    border-color: #f0ad4e;
+#section1 {
+    background-color: #f0ad4e;
 }
 
-#section#2 {
-    border-color: #5bc0de;
+#section2 {
+    background-color: #5bc0de;
 }
 
-#section#3 {
-    border-color: #d9534f;
+#section3 {
+    background-color: #d9534f;
 }
