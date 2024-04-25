@@ -25,6 +25,10 @@ header {
 }
 
 h2 {
+    color: #333;
+}
+
+header > h2 {
     color: #f4f4f4;
 }
 
