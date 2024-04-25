@@ -2,18 +2,34 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     margin: 0;
-    padding: 20px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin: 0px;
+    padding: 10px;
+    color: rgb(201, 197, 197);
+    background-color: rgb(54, 68, 82);
+    width: 100vw;
 }
 
 .fit-picture {
-    width: 100px;
-    display: block;
-    margin: 0 auto;
+    width: 60px;
+    border-radius: 7px;
 }
 
 h2 {
     color: #333;
-    text-align: center;
+}
+
+header > h2 {
+    color: #f4f4f4;
 }
 
 hr {
