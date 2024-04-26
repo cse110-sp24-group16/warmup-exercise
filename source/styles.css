@@ -1,7 +1,14 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
+    --hcolor: #444c62;
+    --bgcolor: #202226;
+    --pgcolor: #2a2f3a;
+    --lightcolor: #ffffff;
+    --card1color: rgba(203,78,78,255);
+    --card2color: rgba(74,149,90,255);
+    --card3color: rgba(84,110,196,255);
+    background-color: var(--pgcolor);
 }
 
 header {
@@ -17,6 +24,7 @@ header {
     color: rgb(201, 197, 197);
     background-color: rgb(54, 68, 82);
     width: 100vw;
+    margin-bottom: 20px;
 }
 
 .fit-picture {
@@ -25,14 +33,11 @@ header {
 }
 
 h2 {
-    color: #333;
-}
-
-header > h2 {
-    color: #f4f4f4;
+    color: var(--lightcolor);
 }
 
 hr {
+    display: none;
     border: none;
     height: 2px;
     background-color: #eaeaea;
@@ -43,8 +48,8 @@ hr {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: auto;
-    margin-bottom: 10px;
-    padding: 20px;
+    margin-top: 10px;
+    padding: 0px;
     max-width: 610px;
 }
 
@@ -53,15 +58,14 @@ form {
     margin: auto;
 }
 
-fieldset {
-    background-color: white;
-    border: 2px solid #eaeaea;
-    border-radius: 8px;
-    padding: 20px;
+fieldset{
+    border: none;
 }
 
-form > fieldset {
-    background-color: #f3f3f3;
+div > fieldset {
+    background-color: rgba(225, 225, 225, 0.925);
+    border-radius: 4px;
+    padding: 20px;
 }
 
 
@@ -83,10 +87,23 @@ summary {
 textarea {
     width: calc(100% - 20px);
     margin-bottom: 10px;
+    background-color: var(--lightcolor);
+    border: none;
+    border-radius: 5px;
 }
 
 .checkbox, .date {
     margin-right: 10px;
+}
+
+.date{
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.checkbox {
+    border: none;
 }
 
 .task-name {
@@ -111,13 +128,36 @@ button:hover {
 
 /* Colors for sections */
 #section1 {
-    background-color: #f0ad4e;
+    background-color: var(--card1color);
 }
 
 #section2 {
-    background-color: #5bc0de;
+    background-color: var(--card2color);
 }
 
+
 #section3 {
-    background-color: #d9534f;
+    background-color: var(--card3color);
+}
+
+/*date colors*/
+#section1 .date{
+    background-color: rgb(220, 133, 133);
+    &:hover{
+        background-color: var(--card1color);
+    }
+}
+
+#section2 .date{
+    background-color: rgb(128, 210, 146);
+    &:hover{
+        background-color: var(--card2color);
+    }
+}
+
+#section3 .date{
+    background-color: rgb(117, 138, 205);
+    &:hover{
+        background-color: var(--card2color);
+    }
 }
