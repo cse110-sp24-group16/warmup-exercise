@@ -158,6 +158,6 @@ button:hover {
 #section3 .date{
     background-color: rgb(117, 138, 205);
     &:hover{
-        background-color: var(--card2color);
+        background-color: var(--card3color);
     }
 }
