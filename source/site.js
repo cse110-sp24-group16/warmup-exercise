@@ -31,7 +31,7 @@ fetch("./data/data.JSON")
             numChecked++;
           }
         })
-        let remaining_tasks = sections[i].querySelectorAll("summary ~ div").length - numChecked
+        let remaining_tasks = sections[i].querySelectorAll("summary ~ div").length - numChecked;
         sections[i].querySelector("summary").innerHTML = 'Tasks Remaining: ' + remaining_tasks;
     }
   })
