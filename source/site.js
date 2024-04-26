@@ -22,6 +22,18 @@ fetch("./data/data.JSON")
       document.querySelector("#task" + (i + 1) + " .date").value =
         tasks[i].date;
     }
+
+    const sections = document.querySelectorAll(".section");
+    for (let i = 0; i < sections.length; i++) {
+        let numChecked = 0;
+        sections[i].querySelectorAll("summary ~ div .checkbox").forEach((checkbox) => {
+          if (checkbox.checked) {
+            numChecked++;
+          }
+        })
+        let remaining_tasks = sections[i].querySelectorAll("summary ~ div").length - numChecked
+        sections[i].querySelector("summary").innerHTML = 'Tasks Remaining: ' + remaining_tasks;
+    }
   })
   .catch((error) => {
     // Error handling
