@@ -62,4 +62,4 @@ Daniil @katulevskiy, Jason @Jasonnyang, Neelkanth @neelkanth-shitolay, Sam @lauT
 
 ## Video
 [https://youtu.be/f9Y3qF4o5xs](https://youtu.be/f9Y3qF4o5xs)
-![video](https://youtu.be/f9Y3qF4o5xs)
+![video](https://www.youtube.com/watch?v=f9Y3qF4o5xs)
