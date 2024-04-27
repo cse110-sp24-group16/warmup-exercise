@@ -59,3 +59,7 @@ Daniil @katulevskiy, Jason @Jasonnyang, Neelkanth @neelkanth-shitolay, Sam @lauT
 - Our product was very basic and lacks features compared to competitor applications
 - Time limitations can get our team potentially stressed leading to issues which we continue to work on
 - Code can be written in a cleaner manner where TA's and tutors can look through our repositories more easily
+
+## Video
+[https://youtu.be/f9Y3qF4o5xs](https://youtu.be/f9Y3qF4o5xs)
+![video](https://youtu.be/f9Y3qF4o5xs)
