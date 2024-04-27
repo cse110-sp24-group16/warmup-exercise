@@ -38,4 +38,24 @@ Daniil @katulevskiy, Jason @Jasonnyang, Neelkanth @neelkanth-shitolay, Sam @lauT
 
 ## SWOT
 
-
+### Strengths
+- Timeline was very well organized and division of labor was understood from the start
+- Team member produced work in a timely manner
+- Widget is intuitive to interact with and clean in overall design
+- Widget had all expected features that were necessary for the assignment
+- Widget met all requirements by the deadline
+### Weaknesses
+- Some team mebers were unfamiliar with the technologies that were being used
+- There was limited time to fully understand things such as Javascript and how to utilize to its full extent
+- The widget could have been improved if given additional time
+- Potential inconsitencies when the widget is opened on different devices i.e. a computer versus a cell-phone
+### Opportunities
+- This task helped the team produce an attainable product within a given timeframe
+- Team members were able to learn additional technologies and be resourceful when creating the widget
+- Team members had the chance to collaborate with team leaders and TA's to improve their understanding
+- The team got hands-on experience with utilizing git to produce a working and functional product
+### Threats
+- The number of technologies that we were limited to could limit our scope when creating an ideal product
+- Our product was very basic and lacks features compared to competitor applications
+- Time limitations can get our team potentially stressed leading to issues which we continue to work on
+- Code can be written in a cleaner manner where TA's and tutors can look through our repositories more easily
